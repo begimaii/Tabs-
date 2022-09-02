@@ -25,7 +25,6 @@ export const styles = {
     },
     h1 : {
         color : "black",
-     
     },
    
 }

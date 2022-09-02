@@ -17,9 +17,7 @@ class Tabs extends Component{
         this.setState({...this.state, selected:index})
         index.target.style.background = "white"
         index.target.style.color = "teal"
-    }
-
-    
+    }   
 render(){
     const {tabs,selected} = this.state
     const hoverHandler = (e) => {
